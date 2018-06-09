@@ -1,4 +1,4 @@
-baseURL = "http://rpsc-spb.ru/"
+baseURL = "https://rpsc-spb.ru/"
 languageCode = "RU-ru"
 title = "Лиговская община РПСЦ"
 theme="nederburg"
