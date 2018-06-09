@@ -1,5 +1,6 @@
 +++
 author = "Валентина Давыдова"
+authorLink = "https://vk.com/id4320582"
 categories = ["новости"]
 date = "2018-06-02T00:00:00Z"
 description = "Описание поста"
