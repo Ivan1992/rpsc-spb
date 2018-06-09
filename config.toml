@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://agitated-bardeen-7cac13.netlify.com/"
 languageCode = "RU-ru"
 title = "Лиговская община РПСЦ"
 theme="nederburg"
