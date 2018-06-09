@@ -1,31 +1,42 @@
 +++
 showonlyimage = false
 draft = false
-image = "img/portfolio/camera1.jpg"
-date = "2016-11-05T19:59:22+05:30"
-title = "A Post with lot of comments"
+image = "img/portfolio/pomosh.jpg"
+date = "2018-02-07"
+title = "Сбор средств на ремонт ржевского храма "
+categories = [ "разное" ]
 weight = 8
 +++
 
-Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
+Поможем нашим братьям посильной помощью, кто репостом, а кто материально! Любая помощь будет полезна! Ведь и наш храм еще не достроен до конца, и мы нуждаемся в помощи, но если мы поможем ближнему, то и на наши просьбы о помощи откликнутся!
 <!--more-->
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+Храм во имя Покрова Богородицы был построен по проекту архитектора Н.Г. Мартьянова. Особое участие в созидании храма приложили члены совета купцы и мещане М.Я. Зетилов, И.А. Поганкин, В.А. Колпашников, А.В. Сазонов. 5 апреля 1910 года состоялось поднятие колоколов на храм, а 9-10 апреля - торжественное освящение храма. 
 
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+В Праздник Покрова пресвятой Богородицы в Ржев вошли немцы. Наступили 17 месяцев оккупации. К марту 1943 года в нем осталось в живых около 200 человек. 
 
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
+Уходя из Ржева, фашисты 1 марта согнали в Покровскую старообрядческую церковь на улице Калинина почти все оставшееся в живых население города — 248 человек — женщин, стариков и детей, заперли железные двери и заминировали церковь. 3 марта 1943 года город Ржев был освобожден войсками 30-й армии Западного фронта. Чудесным образом все горожане выжили, а храм не был взорван. Через несколько недель мы отметим 75-летие освобождения Ржева от немецко-фашистских захватчиков. 
 
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+Ныне Ржевская Покровская старообрядческая община является наследницей ранее существовавших в Ржеве старообрядческих храмов и моленных; она входит в состав Санкт-Петербургско-Тверской старообрядческой епархии. Иконостас 1908 года сохранился полностью. Прихожанами сохраняются уникальные старинные иконы (в т.ч. 16 века), книги и церковная утварь. Храм еженедельно посещают сотни верующих со всей области. 
 
-## Header Level 2
+В настоящее время храму необходим ремонт. Минимальный объем работ (шпатлевка стен, побелка, замена некоторых элементов системы отопления) по смете составляет 550 тысяч рублей. В конце января 2018 года настоятель храма протоиерей Евгений Чунин объявил о сборе средств на проведение ремонтных работ. За прошедшие две недели прихожанами было собрано 50 тысяч рублей и 37 тысяч рублей соответственно. Но, как мы видим, этого недостаточно. Период проведения работ - 2 месяца, и необходимо собрать всю сумму до его окончания. 
 
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+Как жители этого города, как журналисты, мы обращаемся ко всем горожанам, жителям Ржевского района и всей Тверской области, к руководителям предприятий и предпринимателям, к Администрациям города, района и Правительствe Тверской области о необходимости выделения средств для сохранения старейшей святыни региона и одно из немногих сохранившихся во время Великой Отечественной войны исторических зданий! 
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+## РЕКВИЗИТЫ: 
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
+Наименование: Местная религиозная организация "Ржевская Покровская старообрядческая община" 
 
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
+ИНН 6914004506/691401001 
+ОГРН 1026900005461 
+Юридический адрес: 172381, Тверская область, г.Ржев, ул. Калинина, д.62 
+Почтовый адрес: 172381, Тверская область, г.Ржев, ул.Калинина, д.62 
+Тел./факс 8(48232) 2-35-24, 8-906-652-81-45 (Елена Леонидовна Шанина). 
+ФИО руководителя организации - Председатель общины Селезнев Руслан Евгеньевич. 
+Настоятель Покровского храма - протоиерей Евгений Чунин 
+Наименование банка - Отделение №8607 Сбербанка России г.Тверь 
+Расчетный счет: 40703810163220100398 
+Корреспондентский счет: 30101810700000000679 
+БИК 042809679 
+
+> Пожертвования можно осуществить переводом на БАНКОВСКУЮ КАРТУ VISA 4276 6300 1039 8181 EVGENY CHUNIN Сбербанк РФ. Просим указывать в информационном сообщении "На ремонт храма", либо: "на ремонт храма от Иванова И.И.". 
