@@ -1,15 +1,14 @@
 +++
-date = "2018-06-02"
-title = "День всех святых 2018"
 author = "Валентина Давыдова"
-draft = false
+categories = ["новости"]
+date = "2018-06-02T00:00:00Z"
+description = "Описание поста"
 image = "img/portfolio/vseh_svyatyh.jpg"
 showonlyimage = false
-categories = [ "новости" ]
+title = "День всех святых 2018"
 weight = 1
-description = "Individual meta description for this post"
-+++
 
++++
 В общинах Санкт-Петербурга прошли торжества, приуроченные к Неделе всех святых. По благословению митрополита Корнилия праздничное архиерейское богослужение возглавил преосвященный Викентий, епископ Ярославско-Костромской.
 <!--more-->
 
