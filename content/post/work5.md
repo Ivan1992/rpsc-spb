@@ -4,6 +4,7 @@ showonlyimage = true
 draft = false
 date = "2018-05-11"
 title = "Поездка на Финский залив"
+author = "Серафима Смирнова"
 categories = [ "отдых" ]
 weight = 5
 +++

@@ -1,5 +1,5 @@
 baseURL = "http://example.org/"
-languageCode = "ru-ru"
+languageCode = "RU-ru"
 title = "Лиговская община РПСЦ"
 theme="nederburg"
 
