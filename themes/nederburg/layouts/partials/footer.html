@@ -22,93 +22,18 @@
 
 <ul class="social-media-icons">
 
-        {{ with .Site.Params.social.facebook }}
+        {{ with .Site.Params.social.vk }}
 				<li>
-					<a class="facebook" target="_blank"
+					<a class="vk" target="_blank"
 					   href="{{ . }}" >
-						<i class="fa fa-facebook" title="facebook"></i>
-						<span class="screen-reader-text">facebook</span>
-					</a>
-				</li>
-        {{end}}
-
-        {{ with .Site.Params.social.googleplus }}
-				<li>
-					<a class="googleplus" target="_blank"
-					   href="{{ . }}" >
-						<i class="fa fa-google-plus" title="googleplus"></i>
-						<span class="screen-reader-text">googleplus</span>
+						<i class="fa fa-vk" title="vk"></i>
+						<span class="screen-reader-text">ВКонтакте</span>
 					</a>
 				</li>
         {{end}}
 
 
-        {{ with .Site.Params.social.twitter }}
-        <li>
-        <a href="{{ . }}"  class="twitter" target="_blank">
-            <i class="fa fa-twitter-square" title="twitter"></i>
-            <span class="screen-reader-text">twitter</span>
-        </a>
-        </li>
-        {{end}}
-
-        {{ with .Site.Params.social.instagram }}
-        <li>
-        <a href="{{ . }}"  class="twitter" target="_blank">
-            <i class="fa fa-instagram" title="instagram"></i>
-            <span class="screen-reader-text">instagram</span>
-        </a>
-        </li>
-        {{end}}
-
-        {{ with .Site.Params.social.email }}
-        <li>
-        <a href="mailto:{{ . }}"  class="email">
-            <i class="fa fa-envelope" title="email"></i>
-            <span class="screen-reader-text">email</span>
-        </a>
-        </li>
-        {{end}}
-
-        {{ with .Site.Params.social.linkedin }}
-        <li>
-        <a href="{{ . }}" class="linkedin" target="_blank">
-            <i class="fa fa-linkedin" title="linkedin"></i>
-            <span class="screen-reader-text">linkedin</span>
-        </a>
-        </li>
-        {{end}}
-
-        {{ with .Site.Params.social.stackoverflow }}
-        <li>
-        <a href="{{ . }}"  class="stackoverflow" target="_blank">
-            <i class="fa fa-stack-overflow" title="stackoverflow"></i>
-            <span class="screen-reader-text">stackoverflow</span>
-        </a>
-        </li>
-        {{end}}
-
-
-        {{ with .Site.Params.social.github }}
-        <li>
-        <a href="{{ . }}"  class="github" target="_blank">
-            <i class="fa fa-github" title="github"></i>
-            <span class="screen-reader-text">github</span>
-        </a>
-        </li>
-        {{end}}
-
-
-        {{ with .Site.Params.social.pinterest }}
-        <li>
-        <a href="{{ . }}"  class="pinterest" target="_blank">
-            <i class="fa fa-pinterest" title="pinterest"></i>
-            <span class="screen-reader-text">pinterest</span>
-        </a>
-        </li>
-        {{end}}
-
-				</ul>	<div class="design-credit">
+      <div class="design-credit">
 		{{ range .Site.Params.copyright }}
 		<p>{{ . | markdownify }}</p>
 		{{ else }}

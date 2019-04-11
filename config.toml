@@ -20,9 +20,7 @@ paginate = 5 #frontpage pagination
     "тел.: 8 (921) 930-13-22"
   ]
   copyright = [
-    "&copy; 2018 Иван Пряхин",
-    "Дай Бог здоровья",
-    "И сохрани Вас на многая лета"
+    "&copy; 2018-2019 Иван Пряхин"
   ]
 
 
@@ -57,12 +55,13 @@ paginate = 5 #frontpage pagination
   weight = 3
 
   [params.social]
-  facebook      = "full profile url in facebook"
-  googleplus    = "full profile url in googleplus"
-  email         = "email@example.com"
-  twitter       = "full profile url in twitter"
-  linkedin      = "full profile url in linkedin"
-  stackoverflow = "full profile url in stackoverflow"
-  instagram     = "full profile url in instagram"
-  github        = "full profile url in github"
-  pinterest     = "full profile url in pinterest"
+  vk            = "https://vk.com/club151509658"
+#  facebook      = "full profile url in facebook"
+#  googleplus    = "full profile url in googleplus"
+#  email         = "email@example.com"
+#  twitter       = "full profile url in twitter"
+#  linkedin      = "full profile url in linkedin"
+#  stackoverflow = "full profile url in stackoverflow"
+#  instagram     = "full profile url in instagram"
+#  github        = "full profile url in github"
+#  pinterest     = "full profile url in pinterest"
