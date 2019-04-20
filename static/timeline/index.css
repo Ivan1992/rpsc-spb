@@ -1,16 +1,18 @@
+#visualization {
+    margin-bottom: 300px;
+}
+
 .label {
-    /* margin-left: -6px; */
     padding: 0 1px;
     white-space: nowrap;
     background: #f9f9f9bb;
 }
 
 .line {
-    /* margin-left: -6px; */
     margin-top: 3px;
     padding: 0 3px;
     height: 7px;
-    background: #FEE0AE url(line-bg.png) repeat-x left top;
+    background: #FEE0AE url(/timeline/line-bg.png) repeat-x left top;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 4px;
 }
@@ -54,10 +56,19 @@
 
 .vis-grid.vis-vertical {
     background:
-        linear-gradient(lightgray, lightgray) 20% bottom / 1px 90% no-repeat,
-        linear-gradient(lightgray, lightgray) 40% bottom / 1px 90% no-repeat,
-        linear-gradient(lightgray, lightgray) 60% bottom / 1px 90% no-repeat,
-        linear-gradient(lightgray, lightgray) 80% bottom / 1px 90% no-repeat;
+        linear-gradient(lightgray, lightgray) 10% bottom / 1px 98% no-repeat,
+        linear-gradient(lightgray, lightgray) 20% bottom / 1px 98% no-repeat,
+        linear-gradient(lightgray, lightgray) 30% bottom / 1px 98% no-repeat,
+        linear-gradient(lightgray, lightgray) 40% bottom / 1px 98% no-repeat,
+        linear-gradient(lightgray, lightgray) 50% bottom / 1px 98% no-repeat,
+        linear-gradient(lightgray, lightgray) 60% bottom / 1px 98% no-repeat,
+        linear-gradient(lightgray, lightgray) 70% bottom / 1px 98% no-repeat,
+        linear-gradient(lightgray, lightgray) 80% bottom / 1px 98% no-repeat,
+        linear-gradient(lightgray, lightgray) 90% bottom / 1px 98% no-repeat;
+        /* linear-gradient(lightgray, lightgray) 20% bottom / 1px 98% no-repeat,
+        linear-gradient(lightgray, lightgray) 40% bottom / 1px 98% no-repeat,
+        linear-gradient(lightgray, lightgray) 60% bottom / 1px 98% no-repeat,
+        linear-gradient(lightgray, lightgray) 80% bottom / 1px 98% no-repeat; */
 }
 
 .vis-item-content {
@@ -77,6 +88,14 @@
     background-color: transparent !important;
     border-color: transparent !important;
     /* border: 0px !important; */
+}
+
+.rpsc-group .line {
+    background-color: rgb(0, 248, 245);
+}
+
+.rdc-group .line {
+    background-color: rgb(255, 108, 162);
 }
 
 .vis-label {
@@ -101,19 +120,35 @@
     border-color: transparent;
 }
 
+.vis-background .line {
+    display: none;
+}
+
+.vis-background > .vis-item-overflow {
+    background-color: lightpink;    
+}
+
+.vis-background .vis-item-content {
+    bottom: 0px;
+}
+
+.sticky {
+    position: fixed;
+}
+
 .popover {
     display: none;
     position: absolute;
     max-width: 500px;
-    width: 350px;
+    width: 450px;
     max-height: 300px;
     top: 32px;
     left: -10px;
 }
 
 .popover > .popover-body {
-    overflow-y: scroll;
-    height: 200px;
+    overflow-y: auto;
+    max-height: 200px;
 }
 
 .vis-item.vis-box {
@@ -162,4 +197,8 @@ input:checked + .slider:before {
 }
 input:checked + .slider {
     box-shadow:0 0 0 2px limeGreen,0 0 2px limeGreen;
+}
+
+#addRow {
+    visibility: hidden;
 }
