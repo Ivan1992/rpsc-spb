@@ -1,55 +1,50 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>TL template</title>
-    <script src="vis/dist/vis.min.js"></script>
-    <link href="vis/dist/vis.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="http://wzrd.in/standalone/uuid%2Fv4@latest"></script> -->
-
-    <link href="index.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Старообрядческая хронология</title>
+    <link href="timeline.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
-    <div class="row justify-content-center py-3">
-        <button id="zoomIn" class="btn btn-primary">Zoom in <i class="fas fa-search-plus"></i></button>
-        <button id="zoomOut" class="btn btn-primary mx-3">Zoom out <i class="fas fa-search-minus"></i></button>
-        <div>
-            <label class="switch">
-                <input id="changeTooltipMode" type="checkbox">
-                <span class="slider"></span>
-            </label>
-            Tooltip show mode
-        </div>
-    </div>
+    
 
-    <div id="visualization"></div>
+<div class="timelineWrap">
+	<div class="timelineHeader">
+		<a class="logo-runivers" href="/"></a>
 
-    <div class="container">
-        <div class="row pt-4">
-            <div class="col-2"><input id="content" type="text" class="form-control" placeholder="Название" /></div>
-            <div class="col-2"><input id="description" type="text" class="form-control" placeholder="Описание" /></div>
-            <div class="col-2"><input id="start" type="text" class="form-control" placeholder="год / начало" /></div>
-            <div class="col-2"><input id="end" type="text" class="form-control" placeholder="окончание (опционально)" />
-            </div>
-            <div class="col-2">
-                <select id="group" class="form-control">
-                    <option value="1" selected>1</option>
-                    <option value="2">2</option>
-                </select>
-            </div>
-            <div class="col-2"><button id="addEvent" class="btn btn-success form-control">Добавить</button></div>
-        </div>
-    </div>
+		<div class="legend">
+			<a class="button" href="#">Легенда</a>
+			<div class="legend-wrap">
+				<a href="#" class="legend-close">x</a>
+				<ul class="list"></ul>
+			</div>
+		</div><!-- END .legend -->
 
+		<div class="scale">
+			<span class="title">Масштаб ленты:</span>
+			<ul class="list">
+				<li><a data-zoom="0" href="#">1 год</a></li>
+				<li><a data-zoom="1" href="#">5 лет</a></li>
+				<li><a data-zoom="2" class="active" href="#">10 лет</a></li>
+				<li><a data-zoom="3" href="#">50 лет</a></li>
+			</ul>
+		</div><!-- END .scale -->
 
-    <script src="js/min.js"></script>
+		<div class="buttons">
+			<button class="sectionTitlesButton down">Названия секций</button>
+			<button class="fullscreenButton">Полноэкранный режим</button>
+            		</div>
+	</div><!-- END #header -->
+
+	<div class="timelineCanvas"></div>
+	<div class="timelineThumb"></div>
+</div><!-- .timelineWrap -->
+
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+<script type="text/javascript" src="timeline.js"></script>
+<script type="text/javascript" src="header.js"></script>
+<script type="text/javascript" src="obfs.js"></script>
 </body>
-
 </html>
